@@ -1,0 +1,28 @@
+/*
+    CSS for the configure module.
+    Do not leave file empty.
+*/
+
+.configure{
+    width: 880px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 400px);
+    font-family:negotiatefree;
+}
+
+.configure .computer{
+    width:900px;
+    position:absolute;
+    left:-50px;
+}
+
+.configure .kioskURL{
+    margin: 180px 0 14px 239px;
+    font-size:50px;
+}
+
+.configure input{
+    width:708px;
+    margin:10px 5px 10px 0;
+}

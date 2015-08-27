@@ -1,0 +1,34 @@
+<!DOCTYPE html><!--HTML5 doctype-->
+<html>
+    <head>
+    	<title>DigiNow Kiosk</title>
+    	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />-->
+    	
+    	<link rel="stylesheet" href="app/core/app.css" />
+        <script 'unsafe-inline' src='app/core/app.js'></script>
+        <script 'unsafe-inline' src='app/core/app.data.js'></script>
+
+    </head>
+    <body>
+        <section class='appModule configure hidden'
+            id='configure'
+            data-moduletype='configure'
+            data-css='true' 
+            data-html='true'></section>
+           
+            <img class="homebtn" id="home" src="app/core/home.png"/>
+            
+        <section id='kiosk-webview'
+                 class='kiosk hidden'></section>
+        <video id="ss" class="video hidden" loop preload >
+            <source src="app/core/ss.mp4" type="video/mp4">
+
+        </video>
+        <section class='appModule splash'
+            id='splash'
+            data-moduletype='splash'
+            data-css='true' 
+            data-html='true'></section>
+    </body>
+</html>

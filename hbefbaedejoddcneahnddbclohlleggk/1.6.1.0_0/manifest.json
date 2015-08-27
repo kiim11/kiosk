@@ -1,0 +1,24 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "description": "!!!Create your own Kiosk from any website on a local network or from the internet.",
+   "icons": {
+      "128": "app/img/icons/Kiosk-128.png",
+      "16": "app/img/icons/Kiosk-16.png",
+      "256": "app/img/icons/Kiosk-256.png",
+      "32": "app/img/icons/Kiosk-32.png",
+      "64": "app/img/icons/Kiosk-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkL4Gj5UahEYtIgTPMaNM0+rM3l5YctTjo4ebA5yT848Q84Ah9A0A3fxaxdNgJTpb36+JdpwPrskKJefsOZNPHNBN7Fun6vy1ftd9OAuZ4s30B9k/1aYPjrliuucszACN+X6egkpBp+o9r+at1xOLGO3D/B4GQ824UG1HW75UAUz1nfQs3i0HXblf7+rp0l+h4pSPvqRkSVXZ45V85L0VkJnTyvNAz8yJu29v993z9jSouX2nGahzS4eEfZdjWW1W22juDCMaYuNNAy8sYY+t6isnYzI8nvGIKjuNArBn/0/K/sqGvHU5EAzLzuWrhcMJPO583ntecuXfH1ZlRdLAXwIDAQAB",
+   "kiosk_enabled": true,
+   "manifest_version": 2,
+   "minimum_chrome_version": "33",
+   "name": "Kiosk App refactored",
+   "permissions": [ "idle", "power", "storage", "webview", "audioCapture", "videoCapture", "geolocation", "notifications", "alwaysOnTopWindows" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1.063"
+//   "content_security_policy": "default-src 'unsafe-inline' blob: filesystem: chrome-extension-resource:"
+}
